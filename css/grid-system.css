@@ -17,8 +17,8 @@
 
 .container {
 	width: 968px;
-	padding-left: 14px; 
-	padding-right: 14px;
+/*	padding-left: 14px; 
+	padding-right: 14px;*/
 	margin: 0px auto;
 	position: relative;
 }
@@ -29,8 +29,8 @@
 
 .row {
 	width: 100%;
-	margin-left: -14px;
-	margin-right: -14px;
+	/*margin-left: -14px;
+	margin-right: -14px;*/
 }
 
 .row:before, .row:after{
@@ -44,7 +44,8 @@
 
 [class*="col-"] {
 	min-height: 7px;
-	padding: 0 14px;
+	/*padding: 0 14px;*/
+	padding: 0;
 	float: left;
 }
 

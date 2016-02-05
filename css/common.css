@@ -1,0 +1,32 @@
+
+h1 {
+	color: #979797;
+	font-family: "NovaRegular";
+	font-size: 50px;
+}
+h2 {
+	color: #979797;
+	font-family: "NovaLight";
+	font-size: 45px;
+}
+h3 {
+	color: #979797;
+	font-family: "NovaLight";
+	font-size: 30px;
+}
+.texto {
+	color: #606060;
+	font-family: "NovaRegular";
+	font-size: 18px;
+}
+.recuadro {
+	color: #606060;
+	font-family: "NovaRegular";
+	font-size: 14px;
+	text-align: center;
+}
+.quote {
+	color: #606060;
+	font-family: "NovaLight";
+	font-size: 24px;
+}

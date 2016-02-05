@@ -1,0 +1,106 @@
+@font-face{
+	font-family: NovaBold;
+	src: url(../fonts/proximanova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family: NovaLight;
+	src: url(../fonts/proximanova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: NovaRegitalic;
+	src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: NovaRegular;
+	src: url(../fonts/proximanova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: NovaSemibold;
+	src: url(../fonts/proximanova/Proximanova-Semibold.otf);
+}
+
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+
+.pd-5-10 {
+	padding: 5% 10%;
+}
+.ptb-5 {
+	padding: 5% 0;
+}
+.plr-5 {
+	padding: 0 5%;
+} 
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #606060;
+}
+.text-lgray{
+	color: #979797;
+}
+.text-blue{
+ color: #002366;
+}
+.text-lblue {
+	color: #179AD6;
+}
+.bg-blue {
+	background-color: #002366;
+}
+.bg-lblue{
+	background-color: #979797;
+}
+.bg-lgray {
+	background-color: #F6F6F6;
+	opacity: .6;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.x-small {
+	font-size: 10px;
+}
+.small {
+	font-size: 12px;
+}
+.medium {
+	font-size: 25px;
+}
+.big {
+	font-size: 30px;
+}.pequeno {
+	font-size: 14px;
+	padding: 10px 0;
+}
+

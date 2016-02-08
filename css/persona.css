@@ -1,8 +1,8 @@
-.profile  {
-	padding: 5% 20%;
-}
-
-.profile img {
+.persona img {
 	width: 100%;
 	height: auto;
+	margin: 6% 0 4%;
+}
+.persona .texto {
+	margin: 10% 0;
 }

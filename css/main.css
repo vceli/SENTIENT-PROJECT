@@ -1,3 +1,6 @@
-h1 {
-	font-family: "NovaRegitalic";
+.logo {
+	background-image: url(../img/hero-image.jpg);
+	background-repeat: no-repeat;
+	padding: 20% 5%;
+
 }

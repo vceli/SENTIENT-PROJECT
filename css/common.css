@@ -4,35 +4,80 @@
   margin: 0;
   padding: 0;
  }
-
+html {
+	font-size: 9px;
+}
+body {
+	padding-top: 0;
+	padding-bottom: 0; 
+}
 h1 {
-	color: #002366;
 	font-family: "NovaRegular";
-	font-size: 50px;
+	font-size: 4.5rem;
 }
 h2 {
-	color: ##002366;
 	font-family: "NovaLight";
-	font-size: 45px;
+	font-size: 4.5rem;
 }
 h3 {
-	color: #002366;
 	font-family: "NovaLight";
-	font-size: 30px;
+	font-size: 3rem;
 }
 .texto {
 	color: #606060;
 	font-family: "NovaRegular";
-	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 150%;
 }
 .recuadro {
 	color: #606060;
 	font-family: "NovaRegular";
-	font-size: 14px;
+	font-size: 1.4rem;
 	text-align: center;
+	line-height: 150%;
 }
 .quote {
 	color: #606060;
 	font-family: "NovaLight";
-	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 150%;
+}
+
+.marco {
+	padding: 5% 0;
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+
+/*Persona*/
+
+
+@media (min-width: 768px) {
+	html {
+		font-size: 10px;
+	}
+	.marco {
+		width: 70%;
+	}
+	h1 {
+		font-size: 5rem;
+	}
+	/*Home*/
+	.logo {
+		padding: 10% 20%;
+	}
+	/*Persona*/
+     .persona .texto {
+   		text-align: justify;
+   		margin: 3% 0;
+    }
+
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 1200px) {
+
 }

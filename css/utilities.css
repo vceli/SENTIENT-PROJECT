@@ -47,7 +47,7 @@
 	width: 100%;
 }
 .lh{
-	line-height: 1.5;
+	line-height: 150%;
 }
 .a-none-decoration{
 	text-decoration: none;
@@ -58,8 +58,11 @@
 .text-left{
 	text-align: left;
 }
+/*.text-justify {
+	text-align: justify;
+}*/
 .text-white{
-	color: white;
+	color: #FFFFFF;
 }
 .text-gray{
 	color: #606060;
@@ -92,15 +95,20 @@
 	font-size: 10px;
 }
 .small {
-	font-size: 12px;
+	font-size: 14px;
 }
 .medium {
-	font-size: 25px;
+	font-size: 18px;
 }
-.big {
+.x-medium {
+	font-size: 24px;
+}
+.large {
 	font-size: 30px;
-}.pequeno {
-	font-size: 14px;
-	padding: 10px 0;
 }
-
+.x-large {
+	font-size: 45px;
+}
+.xx-large {
+	font-size: 50px;
+}

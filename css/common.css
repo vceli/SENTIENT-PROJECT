@@ -7,9 +7,9 @@
 html {
 	font-size: 9px;
 }
-body {
-	padding-top: 0;
-	padding-bottom: 0; 
+
+header {
+	
 }
 h1 {
 	font-family: "NovaRegular";
@@ -44,6 +44,29 @@ h3 {
 	line-height: 150%;
 }
 
+/*Header*/
+.navbar {
+	padding: 2% 0;
+}
+.navbar-brand {
+	background-color: white;
+	text-align: center;
+
+}
+.navbar-brand img {
+	position: relative;
+
+}
+
+.navbar-right a {
+	color: #606060;
+	font-family: "NovaSemiBold";
+	font-size: 1.8rem;
+	text-align: center;
+}
+.logo-sentient {
+	margin: auto;
+}
 .marco {
 	padding: 5% 0;
 	margin: auto;
@@ -54,6 +77,11 @@ h3 {
 	width: auto;
 	text-align: center;
 	margin: auto;
+}
+.marco80 {
+	width: 100%;
+	margin: auto;
+	text-align: center;
 }
 .formulario {
 	width: 90%; 
@@ -70,11 +98,72 @@ input {
 	border: none;
 	color: white;
 }
+/*About Us*/
+.intro {
+	padding: 5% 0;
+}
+.intro h2 {
+	margin: 5% 0;
+}
+.comillaizq, .comillader {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
+.celeste {
+	color: white;
+	text-align: center;
+}
+.read {
+	width: 100%;
+	border: none;
+	font-size: 2.4rem;
+	padding: 5%;
+	margin: 5% 0;
+}
+.celeste p {
+	color: white;
+	margin: 10% 0;
+	line-height: 200%;
+}
+.celeste .quote {
+	line-height: 150%
+}
+.celeste button {
+	width: 100%;
+	padding: 3%;
+	font-size: 2.4rem;  	
+}
+.apply {
+	border: 2px solid #179AD6;
+}
+.contactform {
+	border: 2px solid rgba(246, 246, 246, 0.6);
+}
+.equipo .careers {
+		background-color: #002366;
+		border: none;
+		width: 100%;
+		padding: 3%;
+		color: rgba(246, 246, 246, 0.6);
+		font-size: 2.4rem;
+		margin: 5% 0;
+}
+.team {
+	margin: 5% 0;
+}
+.imagenes {
+	background-color: white;
+}
 
 @media (min-width: 768px) {
 	html {
 		font-size: 10px;
+	}
+	.navbar {
+		padding: 1% 7%;
 	}
 	.marco {
 		width: 70%;
@@ -82,9 +171,20 @@ input {
 	.marcoesp {
 		width: 70%;
 	}
+	.marco80 {
+		width: 80%;
+	}
 	h1 {
 		font-size: 5rem;
 	}
+	/*Header*/
+	 .logo-sentient{
+        width: 125px;
+        display: inline-block;
+        position: relative;
+        left: 0%;
+    }
+
 	/*Home*/
 	.logo {
 		padding: 10% 20% 2%;
@@ -101,6 +201,11 @@ input {
     /*Home*/
     .contactanos {
 		background-image: url(../img/background-contact-us.jpg);
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.contactanos h2, .contactanos p {
+		color: white;
 	}
     .formulario {
     	width: 50%;
@@ -116,9 +221,62 @@ input {
 		width: 55%;
 		border-radius: 5%;
 		padding: 6px 0;
+		margin: 5%;
 		font-size: 2rem;
 	}
+	/*About us*/
+	.intro {
+		padding: 0 0 5% ;
+	}
+	.intro h2 {
+		margin: 2% 0;
+	}
+	.textoizq, .textoder {
+		text-align: left;
+	}
+	.comillaizq{
+	vertical-align: top;
+	display: inline-block;
+	margin: 0;
+	}
+	.comillader {
+		vertical-align: bottom;
+		display: inline-block;
+		margin: 0;
+	}
+	.read  {
+		width: 50%;
+		padding: 1%;
+		margin: 5% 0 3%;
+	}
 
+	.celeste p {
+		margin: 2% 0;
+	}
+	.celeste .quote {
+		text-align: left;
+		margin-left: 2%;
+		line-height: 150%;
+	}
+	.apply, .contactform  {
+		width: 80%;
+		border-radius: 3%;
+		font-size: 2rem;
+	}
+	.read {
+		width: 10%
+	}
+	.equipo .texto, .equipo .quote {
+		width: 75%;
+		margin: 5% auto;
+	}
+	.equipo .careers {
+		background-color: #179AD6;
+		border: none;
+		width: 20%;
+		padding: 1%;
+		border-radius: 3%;
+	}
 }
 @media (min-width: 992px) {
   .marco {

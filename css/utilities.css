@@ -102,10 +102,13 @@
 	background-color: #002366;
 }
 .bg-lblue{
-	background-color: #979797;
+	background-color: #179AD6;
 }
 .bg-lgray {
 	background-color: rgba(246, 246, 246, 0.6)
+}
+.bg-transparent {
+	background-color: transparent;
 }
 .bg-img-block{
 	background-size: cover;

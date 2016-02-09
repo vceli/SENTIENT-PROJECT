@@ -35,6 +35,20 @@
 	padding-bottom: 5%;
 }
 
+.pb-3{
+	padding-bottom: 3%;
+}
+
+.pt-3{
+	padding-top: 3%;
+}
+
+.pr-1{
+	padding-right: 1%;
+}
+
+
+
 .pd-5-10 {
 	padding: 5% 10%;
 }
@@ -150,3 +164,5 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+

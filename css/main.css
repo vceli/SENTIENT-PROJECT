@@ -1,6 +1,39 @@
 .logo {
 	background-image: url(../img/hero-image.jpg);
 	background-repeat: no-repeat;
-	padding: 20% 5%;
+	padding: 30% 10% 10%;
 
 }
+.logo h1 {
+	margin-top: 0;
+}
+.flecha {
+	margin: 10% 0 0;
+}
+
+.secciones {
+	width: 270px;
+	height: 280px;
+	border: 1px solid #979797;
+	padding: 5% 0 2%;
+	margin: 6% auto;
+}
+.secciones img {
+	margin-top: 2%;
+}
+.secciones .recuadro {
+	margin: 0 10%;
+}
+
+.contactanos {
+	background-color: rgba(246, 246, 246, 0.6);
+	color: #606060;
+}
+.contactanos h3 {
+	color: #002366;
+	margin: auto;
+	font-family: "NovaSemiBold";
+}
+
+
+

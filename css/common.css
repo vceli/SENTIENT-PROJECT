@@ -32,7 +32,8 @@ h3 {
 .recuadro {
 	color: #606060;
 	font-family: "NovaRegular";
-	font-size: 1.4rem;
+	font-size: 14px;
+	/*1.4rem*/
 	text-align: center;
 	line-height: 150%;
 }
@@ -49,9 +50,26 @@ h3 {
 	width: 90%;
 	text-align: center;
 }
-
-
-/*Persona*/
+.marcoesp {
+	width: auto;
+	text-align: center;
+	margin: auto;
+}
+.formulario {
+	width: 90%; 
+	margin: auto;
+}
+input {
+	width: 100%;
+	font-size: 2.4rem;
+	padding: 10px 0;
+	margin: 4% 0;
+}
+.send {
+	background-color: #179AD6;
+	border: none;
+	color: white;
+}
 
 
 @media (min-width: 768px) {
@@ -61,23 +79,59 @@ h3 {
 	.marco {
 		width: 70%;
 	}
+	.marcoesp {
+		width: 70%;
+	}
 	h1 {
 		font-size: 5rem;
 	}
 	/*Home*/
 	.logo {
-		padding: 10% 20%;
+		padding: 10% 20% 2%;
 	}
+	.marco h3 {
+		margin: 0 5%;
+	}
+	
 	/*Persona*/
      .persona .texto {
    		text-align: justify;
    		margin: 3% 0;
     }
+    /*Home*/
+    .contactanos {
+		background-image: url(../img/background-contact-us.jpg);
+	}
+    .formulario {
+    	width: 50%;
+    	color: white
+    }
+    input {
+		width: 90%;
+		font-size: 2.4rem;
+		padding: 8px 0;
+		margin: 2% 0;
+	}
+    .send {
+		width: 55%;
+		border-radius: 5%;
+		padding: 6px 0;
+		font-size: 2rem;
+	}
 
 }
 @media (min-width: 992px) {
-  
+  .marco {
+		width: 65%;
+	}
+	.secciones {
+		margin-bottom: 15%;
+	}
+	.formulario {
+		width: 35%;
+	}	
 }
+
 @media (min-width: 1200px) {
 
 }

@@ -248,7 +248,7 @@ input {
 		margin: 0;
 	}
 	.read  {
-		width: 50%;
+		width: 35%;
 		padding: 1%;
 		margin: 5% 0 3%;
 	}
@@ -266,9 +266,7 @@ input {
 		border-radius: 3%;
 		font-size: 2rem;
 	}
-	.read {
-		width: 10%
-	}
+	
 	.equipo .texto, .equipo .quote {
 		width: 75%;
 		margin: 5% auto;

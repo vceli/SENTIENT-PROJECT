@@ -55,9 +55,9 @@ h3 {
 }
 .navbar-brand img {
 	position: relative;
+	left: 40%;
 
 }
-
 .navbar-right a {
 	color: #606060;
 	font-family: "NovaSemiBold";
@@ -134,7 +134,7 @@ input {
 .celeste .quote {
 	line-height: 150%
 }
-.celeste button {
+.apply, .contactform {
 	width: 100%;
 	padding: 3%;
 	font-size: 2.4rem;  	
@@ -158,8 +158,9 @@ input {
 	margin: 5% 0;
 }
 .imagenes {
-	background-color: white;
+	background-color: transparent;
 }
+
 
 @media (min-width: 768px) {
 	html {
@@ -187,6 +188,10 @@ input {
         position: relative;
         left: 0%;
     }
+    .navbar-brand img {
+	position: relative;
+	left: 10%;
+	}
 
 	/*Home*/
 	.logo {
@@ -248,7 +253,7 @@ input {
 		margin: 0;
 	}
 	.read  {
-		width: 50%;
+		width: 35%;
 		padding: 1%;
 		margin: 5% 0 3%;
 	}
@@ -265,10 +270,11 @@ input {
 		width: 80%;
 		border-radius: 3%;
 		font-size: 2rem;
+		margin-top: 15%;
+
+
 	}
-	.read {
-		width: 10%
-	}
+	
 	.equipo .texto, .equipo .quote {
 		width: 75%;
 		margin: 5% auto;
@@ -282,9 +288,7 @@ input {
 	}
 }
 @media (min-width: 992px) {
-  .marco {
-		width: 65%;
-	}
+  
 	.secciones {
 		margin-bottom: 15%;
 	}
@@ -296,24 +300,3 @@ input {
 @media (min-width: 1200px) {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

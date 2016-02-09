@@ -114,7 +114,6 @@ input {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
 .celeste {
 	color: white;
 	text-align: center;
@@ -219,6 +218,7 @@ input {
 		font-size: 2.4rem;
 		padding: 8px 0;
 		margin: 2% 0;
+		color: #979797
 	}
     .send {
 		width: 55%;
